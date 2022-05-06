@@ -30,7 +30,7 @@ namespace lab4_zad
 
         public IDictionary<string, List<string>> Categorize()
         {
-            IDictionary<string, List<string>> sizesByLabels = new Dictionary<string, List<string>>();
+            
             int count = 0;
             long? totalSize = 0;
             long? maxSize = 0;

@@ -10,7 +10,7 @@ namespace lab4_zad
 {
     public class OrderByNameAndSize : IEnumerable<ComposedKey>
     {
-        //posortowany słownik z multi kluczem, można sortować na różne sposoby zależnie od potrzeby (bazwa pliku albo rozmiar)
+        //posortowany słownik z multi kluczem, można sortować na różne sposoby zależnie od potrzeby (nazwa pliku albo rozmiar)
         public IDictionary<ComposedKey, MyFile> dictionary = new SortedDictionary<ComposedKey, MyFile>();
         //public IDictionary<string, string> files = new SortedList<string, string>();
         public string? Name;

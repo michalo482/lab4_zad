@@ -12,6 +12,8 @@ ByTypes byTypes = new(myNode.files);
 byTypes.Print();
 BySizes bySizes = new(myNode.files);
 bySizes.PrintBySizes();
+ByExtension byExtension = new(myNode.files);
+byExtension.PrintByExtension();
 
 
 
