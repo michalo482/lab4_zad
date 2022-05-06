@@ -37,6 +37,7 @@ namespace lab4_zad
             {
                 if (file.SizeInBytes <= 1024)
                 {
+
                     count++;
                     totalSize += file.SizeInBytes;
                     maxSize = myFiles.Max(x => x.SizeInBytes);
@@ -45,6 +46,7 @@ namespace lab4_zad
             }
             if (count > 0)
             {
+
                 averageSize = totalSize / count;
                 countString = count.ToString();
                 totalSizeString = SizeNormalizer(totalSize);
