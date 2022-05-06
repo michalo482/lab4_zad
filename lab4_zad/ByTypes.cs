@@ -112,7 +112,7 @@ namespace lab4_zad
         
         public IEnumerator<string> GetEnumerator()
         {
-            return filesByLabels.Keys.GetEnumerator();
+            return sizesByLabels.Keys.GetEnumerator();
         }
         
 
